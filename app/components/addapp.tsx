@@ -94,7 +94,7 @@ export default function AddApp({
       <p className="font-semibold text-black1 mb-4">Choose a clinic</p>
       <div className="flex gap-5">
         {clinics.map((cl:any, idx:number) => (
-          <div className="border border-gray1 p-2 rounded-lg">
+          <div className="border border-gray1 p-2 rounded-lg" key={idx}>
             <div className="flex gap-4 items-center mb-4">
               <Image
                 src={clinicImg}
