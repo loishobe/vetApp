@@ -17,11 +17,35 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #ffffff;
+}
+
+.main-nav {
+  background: #1C1C1E;
+}
+.main-content {
+  width: calc(100% - 14rem);
+}
+.search-input {
+  background: #f3f2f0;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 5px;
+  padding-left: 15px;
+}
+.search-input-icon {
+  right: 13px;
+  top: 6px;
+}
+.head-icon-button {
+  width: 36px;
+  height: 36px;
+  background: #F2F2F1;
+  border-radius: 100%;
+}
+.navbar-footer-div {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
