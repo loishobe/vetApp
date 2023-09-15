@@ -227,7 +227,7 @@ export default function EditApp({
 
       <p className="font-semibold text-black1 mb-2 mt-10">Set Date and Time</p>
       <div>
-        <DateTimePicker onChange={setDtValue} value={dtValue} format={"dd.MM.yyyy hh:mm aa"} locale="vi"/>
+        <DateTimePicker onChange={setDtValue} value={dtValue} format={"dd.MM.yyyy hh:mm aa"}/>
       </div>
 
 
